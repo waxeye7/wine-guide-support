@@ -40,7 +40,7 @@ Links to VinoFYI pages, GitHub and Apple's terms open in your phone's own browse
 
 ## App update check (Expo)
 
-The app checks for updates to its own code through Expo's update service (u.expo.dev, with downloads from Expo's asset hosts). The check happens when the app starts and again when you return to it, at most about once an hour. The request exposes your IP address, the platform (iOS or Android) and the app's runtime version to Expo. We do not add a user ID, device ID or any of your data. The check is used only to deliver app updates, never for advertising. Expo's own privacy policy applies to its handling of these requests.
+The app checks for updates to its own code through Expo's update service (u.expo.dev, with downloads from Expo's asset hosts). The check happens when the app starts and again when you return to it, at most about once an hour. The request includes a random install identifier created by Expo's update library, the platform (iOS or Android) and the app's runtime version, and it exposes your IP address. The identifier is not your name, your email or your advertising ID. We do not add a user ID or any of your data. The check is used only to deliver app updates, never for advertising. Expo's own privacy policy applies to its handling of these requests.
 
 ## Purchases (iPhone only)
 
